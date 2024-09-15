@@ -31,7 +31,7 @@ function Toggle() {
         className="sr-only peer"
         onClick={() => setIsDarkmode(!isDarkmode)}
       />
-      <div className="relative w-11 h-6 xl:w-14 xl:h-7 bg-theme-toggleLightClr rounded-full peer peer-focus-visible:ring-4 peer-focus-visible:ring-blue-300 dark:peer-focus-visible:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[3.5px] after:bg-white peer-checked:after:bg-theme-cardClr peer-checked:after:border-theme-cardClr after:border after:rounded-full after:aspect-square after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-toggleDarkClr"></div>
+      <div className="relative w-11 h-6 xl:w-14 xl:h-7 bg-theme-toggleLightClr rounded-full peer peer-focus-visible:ring-4 peer-focus-visible:ring-blue-300 dark:peer-focus-visible:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4.2px] after:bg-white peer-checked:after:bg-theme-cardClr peer-checked:after:border-theme-cardClr after:border after:rounded-full after:aspect-square after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-toggleDarkClr"></div>
     </label>
   );
 }
