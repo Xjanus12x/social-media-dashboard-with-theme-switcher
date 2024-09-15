@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --top-pattern-clr: 225, 100%, 98%;
+    --dashboard-bg-clr: 0, 0%, 100%;
+    --card-bg-clr: 227, 47%, 96%;
+    --text-clr-1: 228, 12%, 44%;
+    --text-clr-2: 230, 17%, 14%;
+    --hover-clr: 232, 33%, 91%;
+  }
+
+  :root .wrapper[data-theme="dark"] {
+    --dashboard-bg-clr: 230, 17%, 14%;
+    --top-pattern-clr: 232, 19%, 15%;
+    --card-bg-clr: 228, 28%, 20%;
+    --text-clr-1: 228, 34%, 66%;
+    --text-clr-2: 0, 0%, 100%;
+    --hover-clr: 228, 26%, 27%;
+  }
+
+  @media (prefers-colors-scheme: dark) {
+    :root {
+      --toggle-bg-clr: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+      --dashboard-bg-clr: 230, 17%, 14%;
+      --top-pattern-clr: 232, 19%, 15%;
+      --card-bg-clr: 228, 28%, 20%;
+      --text-clr-1: 228, 34%, 66%;
+      --text-clr-2: 0, 0%, 100%;
+      --hover-clr: 228, 26%, 27%;
+    }
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
